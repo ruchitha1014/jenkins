@@ -45,8 +45,8 @@ stage {'server 3'} {
         echo 'this is deploy to server 3'
 sh 'sleep 5'
 }
-    }
 }
 }
-
+}
+}
 }
