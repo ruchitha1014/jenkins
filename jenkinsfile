@@ -25,19 +25,19 @@ sh 'sleep 5'
 }
 stage('DEPLOY') {
 parallel{
-stage {'server 1'} {
+stage ('server 1') {
       steps {
         echo 'this is deploy to server 1'
 sh 'sleep 5'
 }
     }
-stage {'server 2'} {
+stage ('server 2') {
       steps {
         echo 'this is deploy to server 2'
 sh 'sleep 5'
 }
     }
-stage {'server 3'} {
+stage ('server 3') {
       steps {
         echo 'this is deploy to server 3'
 sh 'sleep 5'
