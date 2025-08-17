@@ -25,7 +25,7 @@ sh 'sleep 5'
   }
 }
 }
-}
+
 stage('DEPLOY') {
 parallel{
 stage {'server 1'} {
