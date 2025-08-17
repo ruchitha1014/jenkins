@@ -1,12 +1,9 @@
 pipeline {
   agent any
-environment {
-NAME = 'HARSHA'
-}
   stages {
     stage('BUILD') {
       steps {
-        echo "$NAME"
+        echo 'this is build stage'
 sh 'sleep 5'
     }
 }
